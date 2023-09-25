@@ -1,3 +1,27 @@
 .navbar{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  border: solid 1px aquamarine;
+}
+.logo{
+  display: flex;
+  align-items: center; /* vertical */
 
 }
+.icons{
+  display: flex;
+  .user{
+    display: flex;
+    align-items: center;
+    img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+
+    }
+  }
+
+}
+
